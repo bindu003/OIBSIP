@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Calculator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="calculator">
+    <div class="display">
+      <div id="input"></div>
+      <div id="result">0</div>
+    </div>
+    <div class="buttons">
+      <button onclick="addChar('(')">(</button>
+      <button onclick="addChar(')')">)</button>
+      <button onclick="getAns()">ans</button>
+      <button onclick="delChar()">del</button>
+      <button onclick="clearDisplay()">clear</button>
+      <button onclick="addChar('7')">7</button>
+      <button onclick="addChar('8')">8</button>
+      <button onclick="addChar('9')">9</button>
+      <button onclick="addChar('%')">%</button>
+      <button onclick="addChar('√')">√</button>
+      <button onclick="addChar('4')">4</button>
+      <button onclick="addChar('5')">5</button>
+      <button onclick="addChar('6')">6</button>
+      <button onclick="addChar('*')">x</button>
+      <button onclick="addChar('/')">÷</button>
+      <button onclick="addChar('1')">1</button>
+      <button onclick="addChar('2')">2</button>
+      <button onclick="addChar('3')">3</button>
+      <button onclick="addChar('+')">+</button>
+      <button onclick="addChar('-')">-</button>
+      <button onclick="addChar('.')">.</button>
+      <button onclick="addChar('0')">0</button>
+      <button class="span-two" onclick="calculate()">ENTER</button>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
