@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #e0e0e0;
+  background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
+.hero h1 {
+  font-size: 3em;
+  color: #ffffff;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #aaa;
+  margin: 10px 0;
+}
+
+.play-button {
+  font-size: 24px;
+  padding: 12px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  background: transparent;
+  color: white;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.play-button:hover {
+  background-color: white;
+  color: #111;
+}
+
+.quote {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-color: #ffffff;
+  color: #000;
+}
+
+.quote-text {
+  flex: 1;
+  font-size: 1.5em;
+  padding-right: 30px;
+  line-height: 1.4;
+}
+
+.quote img {
+  flex: 1;
+  max-width: 350px;
+  height: auto;
+  border-radius: 10px;
+}
+
+.bio {
+  padding: 60px 30px;
+  background-color: #111;
+  text-align: center;
+}
+
+.bio h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+  color: #ffffff;
+}
+
+.bio p {
+  font-size: 1.1em;
+  max-width: 800px;
+  margin: auto;
+  line-height: 1.6;
+  color: #ccc;
+}

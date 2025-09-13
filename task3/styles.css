@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #1b2735, #090a0f);
+  color: #fff;
+}
+
+header {
+  background-color: #111;
+  padding: 15px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+}
+
+main {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+  flex-wrap: wrap;
+}
+
+.form-container {
+  background-color: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 8px;
+  width: 300px;
+}
+
+#todo-form input, 
+#todo-form textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+#todo-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #28a745;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#todo-form button:hover {
+  background-color: #218838;
+}
+
+.list-container {
+  background-color: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 8px;
+  width: 600px;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+thead th {
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+tbody tr {
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  margin: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+tbody td {
+  padding: 10px;
+  flex: 1;
+}
+
+tbody td:nth-child(3) {
+  flex: 0 0 auto;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #c82333;
+}
